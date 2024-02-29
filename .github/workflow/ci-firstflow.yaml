@@ -1,0 +1,14 @@
+name: Start
+on:
+  push:
+    branches:
+      
+feat/ci-cd
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      
+name: Step heello
+      run: echo "Hello world"
